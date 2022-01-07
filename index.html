@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Weather</title>
+  <link rel="shortcut icon" href="weather.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+
+  <script defer src="weather.js"></script>
+  <script defer src="search.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="weather.ico" alt="weather logo" class="logo">
+    </a>
+    <div class="search">
+      <input type="text" name="city" id="city" placeholder="Search by City">
+      <button class="btn">Search</button>
+    </div>
+  </header>
+  <div class="container">
+    <h1 class="heading"></h1>
+    <div class="data">
+      <p class="description"></p>
+      <p class="temperature"></p>
+      <p class="feels-like"></p>
+      <p class="min"></p>
+      <p class="max"></p>
+      <p class="pressure"></p>
+      <p class="humidity"></p>
+      <p class="visibility"></p>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>
+      This program uses the weather API from
+      <a href="https://openweathermap.org/" target="_blank">
+        openweathermap.org
+      </a>
+      . Program written by Daniel Chua &copy; 2022. Glass theme from
+      <a href="https://www.youtube.com/watch?v=O7WbVj5apxU" target="_blank">
+        Dev Ed
+      </a>.
+    </p>
+  </footer>
+</body>
+
+</html>
